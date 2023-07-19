@@ -3,12 +3,12 @@ FROM python:3.7
 LABEL maintainer='Data Lifecycle Management Team - dlm@llnl.gov'
 
 # Set environment variables
-ENV TOOLKIT_VERSION=2.0.0
+ENV TOOLKIT_VERSION=2.3.1
 ENV V_TOOLKIT_VERSION v$TOOLKIT_VERSION
 ENV install_version MI_ScriptingToolkit_${V_TOOLKIT_VERSION}_for_Python
 ENV zip_file Toolkit_zip_files/${install_version}.zip
 ENV toolkit_folder MIScriptingToolkit-${TOOLKIT_VERSION}
-ENV toolkit_whl ${toolkit_folder}-py3-none-any.whl
+ENV toolkit_whl MIScriptingToolkit-2.3.338-py3-none-any.whl
 ENV toolkit_dir /mstk
 ENV os_folder Debian9
 
